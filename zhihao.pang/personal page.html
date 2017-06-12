@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Travel Webpage</title>
+        <!-- default bootstrap -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <!-- Themes must be after bootstrap CSS -->
+        <!-- try themes from: https://startbootstrap.com/-->
+        <!--<link rel="stylesheet" type="text/css" href="theme.css"> -->
+        <!--<link rel="stylesheet" type="text/css" href="theme2.css"> -->
+        <link rel="stylesheet" type="text/css" href="theme3.css">
+        <!--<link rel="stylesheet" type="text/css" href="theme4.css"> -->
+        <!-- <link rel="stylesheet" type="text/css" href="mytheme.css"> -->
+        <link rel="stylesheet" type="text/css" href="own.css">
+        <!-- font awesome after themes and bootstrap -->
+        <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/fontawesome/4.7.0/css/font-awesome.min.css">
+        
+        <!-- animate.css -->
+        <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/animatecss/3.5.2/animate.min.css">
+        
+        <!-- use this style for testing and development purposes -->
+        <!-- <style type="text/css">
+        .container{border: 2px dotted green;}
+        .row{border: 1px dotted red;}
+        .row [class*=' col-']{border: 2px dotted purple;}
+        </style> -->
+        
+    </head>
+<!-- to disable sticking bar to screen, remove class: navbar-fixed-top -->
+<nav class="navbar navbar-default navbar-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <!-- hamburger button. do not touch! -->
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <!-- HOME BUTTON: REPLACE href="#" with your landing page url -->
+      <a class="navbar-brand" href="#">
+          <!-- PUT BRAND LOGO / ICON HERE (instead of font-awesome -->
+          <i class="fa fa-telegram"></i>
+      </a>
+    </div>
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+    <!-- THIS UL HANDLES OUR LINKS -->
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="http://facebook.com">facebook</a></li>
+        <li><a href="http://facebook.com">facebook2</a></li>
+        <!-- to make more links, make some <li> in here -->
+      </ul>
+    </div>
+  </div>
+</nav>
+
+    <body>
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12">
+                    <div class="jumbotron profilepic" >
+                        <h2>
+                        ABOUT ME<br>
+                        <p>My name is Daniel Grant, I am a professional Wakeboarder and Wakeskater living  in Bangkok, Thailand. I have been riding since the age of 8 and turned professional at the age of 13. 
+ 
+My website is to give information what I am up to, as well as some highlights from my career so far.
+ 
+in both 2015 and 2016 I have ran my own video projects (2015 - TAO + 2016 - Eclipse), both videos and background behind them can be found within the website.   This as well as other video projects I have been part of.  Many are freeview and can be found on youtube or vimeo, a number you can purchse as a blueray DVD or via Itunes.
+ 
+After 2016 and my ECLIPSE edit, I have two ideas for this year and I will work closely with Rip Curl and SPY, as I did with Eclipse.
+The first concept is a locaiton search.  The first two countries will be New Zealand and Ireland.  Probably the two most beautiful countires in the world that I have never visited in the past.  They are also unique as they are “new” wake markets, especially for riding cable.  We will hit spots mostly on a winch.
+Another concept as a GROM SEARCH.  I will be working together with my sponsors, and wanted to pass through a numebr of cable parks and ride together with some of the upcomig Groms.  The level of riding right now with kids is insane, and I want to spend time with the upcoming riders and give them a chance to show what they have got.     The GROM Search will start in March, with the first stop being Bali - Indonesia.
+ 
+Please take a moment to subscribe to my website, as the season progresses, I will send out flyers to all subscribers and update by posting on my Facebook and Instagram.          
+     
+Please take a moment to check out my sponsors, each logo, has a link to their website and their products.  Without sponsors, I could not do what I am doing, so I am eternally grateful and hope you can support their amazing products.
+ 
+Thanks again
+ 
+Daniel Grant
+
+</p>
+                    
+
+
+                    </h2>
+                </div>
+            </div>
+        </div>
+
+        <hr>
+
+        <div class="row">
+
+          <h2>Professional Experience</h2>
+
+          <p>
+              Synergix Technologies
+
+
+          </p>
+
+        
+
+          <p>
+              HERE Maps
+
+
+          </p>
+
+          </div>
+
+          <div class ="row"">
+
+        <h2>Education</h2>
+
+          <p>
+              NUS ISS
+
+
+          </p>
+
+          <p>
+              UOL
+
+          </p>
+
+        
+
+</div>
+       
+  <hr>
+
+        <div class="row">
+            <div class="col-xs-12 col-sm-6">
+                <div class="panel panel-default text-muted" style="margin-top: 2rem">
+                    <div class="panel-body">
+                        <form action="" method="post" role="form">
+                           <legend>Subscribe Now</legend>
+
+                            <div class="form-group">
+                                <label for="name-id">Name</label>
+                                <input type="text" class="form-control" name="name" id="name-id" placeholder="Please enter your full name here.">
+                                </div>
+                                
+                              <div class="alert alert-danger hidden" id="name-error-id">Oh snap! Require 4 minimum characters. Please try again. 
+                              </div>
+
+                            <div class="form-group">
+                                <label for="email-id">Email</label>
+                                <input type="email" class="form-control" name="email" id="email-id" placeholder="Please enter your email here." autocomplete="on">
+                            </div>
+
+                            <div class="form-group">
+                                <div class="radio">
+                                    <label>
+                                        <input type="radio" name="newsletter" id="news-id-1" value="weekly" checked="checked">
+                                        Send me newsletters
+                                    </label>
+                                </div>
+
+                                <div class="radio">
+                                    <label>
+                                        <input type="radio" name="newsletter" id="news-id-2" value="never">
+                                        Don't send me newsletters
+                                    </label>
+                                </div>
+                            </div>
+
+                            <button type="submit" class="btn btn-primary">Submit</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-xs-12 col-md-4">
+                
+                <h3>
+                    Get in Touch
+                </h3>
+                
+                <div class="list-group">
+                    <a href="#" class="list-group-item"><i class="fa fa-phone fa-fw" aria-hidden="true"></i> +65 123 456 789</a>
+                    <a href="#" class="list-group-item"><i class="fa fa-envelope fa-fw" aria-hidden="true"></i> hello@meet.me</a>
+                    <a href="#" class="list-group-item"><i class="fa fa-telegram fa-fw" aria-hidden="true"></i> t.me/frank</a>
+                </div>
+
+            </div>
+        </div>
+        
+        <hr>
+
+        <div class="row">
+            <div class="col-xs-12 text-center">
+                <ul class="list-inline">
+                    <li><a href="#"><i class="fa fa-facebook fa-2x"></i></a></li>
+                    <li><a href="#"><i class="fa fa-instagram fa-2x"></i></a></li>
+                    <li><a href="#"><i class="fa fa-snapchat fa-2x"></i></a></li>
+                    <li><a href="#"><i class="fa fa-google fa-2x"></i></a></li>
+                </ul>
+           </div>
+        </div>
+    </div>
+</div>
+
+        <!-- jquery -->
+        <script type="text/javascript" src="https://cdn.jsdelivr.net/jquery/3.1.1/jquery.min.js"></script>
+        <!-- bootstrap js -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+        <!-- wow.js -->
+        <script type="text/javascript" src="https://cdn.jsdelivr.net/wow/1.1.2/wow.min.js"></script>
+        <!-- command to initiate the wow.js -->
+        <script>new WOW().init();</script>
+        <!-- javascript -->
+        <script type="text/javascript" src=page.js></script>
+    </body>
+</html>
